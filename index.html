@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>test na pidora</title>
+  <style>
+      #loading {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        display: none;
+        background-color: #000;
+        opacity: 0.5;
+      }
+        #loader {
+            position: fixed;
+            z-index: 2000;
+            margin-top: 15%;
+            width: 100px;
+            height: 100px;
+            left: 50%;
+            margin-left: -50px;
+            display: none;
+        }
+  </style>
+</head>
+<body>
+    <div id="loading"></div>
+    <div id="loader">
+        <img src="https://mandarino.su/images/ajax_loader.svg">
+    </div>
+    <h1>
+        Тест на натурала по ссылке на страницу Вконтакте.
+        Поиск в базе данных натуралов России
+    </h1>
+    <input id="vk" type="text">
+    <button id="check">Проверить</button>
+    <script src="./script.js"></script>
+</body>
+</html>
