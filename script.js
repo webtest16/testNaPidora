@@ -20,7 +20,7 @@ function testNaPidora(url, fullLink) {
             if (res.status === 200) {
                 alert(fullLink + ' натурал!!!');
             } else {
-                alert(fullLink + 'не найден в базе натуралов!!!\n\r Он пидарас!!!');
+                alert(fullLink + ' не найден в базе натуралов!!!\n\r Он пидарас!!!');
             }
         }, 0);
     });
